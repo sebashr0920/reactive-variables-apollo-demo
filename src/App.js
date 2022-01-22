@@ -2,7 +2,7 @@ import {useEffect} from "react";
 import {useReactiveVar} from "@apollo/client";
 import {Button} from "./Button";
 import {Title} from "./Title";
-import {showTitle} from "./cache";
+import {showTitle} from "./store";
 
 export const App = () => {
     useEffect(() => {
